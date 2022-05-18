@@ -1,0 +1,15 @@
+[include kiauh_macros.cfg]
+[mcu]
+serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_32FFDB054B4E313126800243-if00
+
+[pause_resume]
+
+[display_status]
+
+[virtual_sdcard]
+path: ~/gcode_files
+
+[printer]
+kinematics: none
+max_velocity: 1000
+max_accel: 1000
